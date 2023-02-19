@@ -1,0 +1,53 @@
+.footermain{
+    width: 100%;
+    background-color: #343D48;
+    height: 436px;
+    display: flex;
+    
+}
+.fb{
+    font-size: 20px;
+    color: #596AFF;
+    
+    
+}
+.link{
+     
+    color: white;
+    font-size:20px;
+    
+}
+.insta{
+    color: black;
+    font-size:20px;
+    
+}
+
+
+.fourth span{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    justify-content: space-evenly;
+
+ 
+}
+
+ p{
+    color: white;
+}
+ h3{
+    color: #596AFF;
+}
+.same{
+    margin: 20px;
+}
+.maindiv{
+   
+    display: flex;
+    margin: 50px auto;
+    
+}
+.same p:hover{
+    color: #596AFF;
+}

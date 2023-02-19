@@ -1,0 +1,38 @@
+.content{
+    margin: 10px;
+    width: 380px;
+    height: 331px;
+    display: inline-block;
+    flex: 0 0 auto;
+    text-align: center;
+    min-width: 0;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: rgb(73 107 255 / 48%);
+    box-sizing: border-box;
+    transition: 0.5s;
+    
+}
+.content:hover{
+    transform: scale(1.1);
+}
+
+.imgwala{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.imgwala img{
+    /* width:324;
+    height:216px ; */
+    /* margin: auto; */
+    transform: translateY(-10%);
+    width: 90%;
+    height: 218px;
+    margin: auto;
+    margin-bottom: 40px;
+
+}
+.imgwala h3{
+    color: #343D48;
+}

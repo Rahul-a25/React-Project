@@ -1,0 +1,70 @@
+.main{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    box-shadow: 0 1px 2px rgb(0 0 0 / 6%);
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    
+    
+}
+.middle ul li{
+cursor: pointer;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10000;
+    background-color: white;
+}
+.left img{
+    width: 125px;
+    height: 70px;
+    margin-top: 30px;
+    margin-left: 150px;
+}
+
+.middle ul{
+    display: flex;
+} 
+.middle ul li{
+    list-style-type: none;
+    margin: 40px;
+    font-size: 15px;
+    font-weight: 450;
+}
+.lower button{
+    width: 170px ;
+    padding: 15px;
+    border-radius: 30px;
+    font-size: 15px;
+    background-color: #596AFF;
+    color: white;
+    border: none;
+    font-weight: 400;
+    margin-top: 30px;
+}
+.lower button:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 0px 0px 10px gray;
+    cursor: pointer;
+}
+.upper{
+    display: flex;
+    
+}
+.phone{
+    color: blue;
+    font-size: 20px;
+}
+.email{
+    color: blue;
+    font-size: 20px;
+}
+.upper span{
+    margin-left: 20px;
+
+}
